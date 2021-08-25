@@ -1,0 +1,12 @@
+#include<iostream>
+ using namespace std;
+int main()
+{
+ int upstream =1,downstream=-1, sealevel=0,n;
+ n= sealevel-downstream;
+ n=n-downstream;
+ n=n+upstream;
+ cout<<"the valley is :"<<n;
+ return 0;
+ 
+}
